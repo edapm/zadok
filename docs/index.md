@@ -4,7 +4,7 @@
 
 layout: home
 ---
-![zadok](zadok.svg)
+<img src="zadok.png" width="5" /img>
 A to-do list program for the command line, written in Python.
 
 ## Info below ↓
