@@ -1,2 +1,2 @@
 # Zadok
-A simple to-do list application from the command line.
+A to-do list program for the command line, written in Python.
