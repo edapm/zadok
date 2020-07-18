@@ -4,7 +4,7 @@
 
 layout: home
 ---
-<img src="zadok.png" width="5" /img>
+<img src="../zadok.png" width="5" /img>
 A to-do list program for the command line, written in Python.
 
 ## Info below ↓
