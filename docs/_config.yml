@@ -39,6 +39,11 @@ github:
 theme: jekyll-theme-primer
 plugins:
   - jekyll-feed
+  - jekyll-readme-index
+readme_index:
+  enabled:          true
+  remove_originals: false
+  with_frontmatter: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
