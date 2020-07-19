@@ -41,7 +41,7 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
 readme_index:
-  enabled:          true
+  enabled:          false
   remove_originals: false
   with_frontmatter: false
 
