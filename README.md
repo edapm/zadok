@@ -5,4 +5,12 @@ A to-do list program for the command line, written in Python.
 
 ## Info below ↓
 [Project on GitHub](https://github.com/forgenst/zadok)
-*Roadmap and Docs coming soon!*
+
+#### Roadmap
+[View on GitHub: Zadok Version 1.0](https://github.com/forgenst/zadok/projects/2)
+
+#### Wiki
+[View On GitHub](https://github.com/forgenst/zadok/wiki)
+
+#### Report an Issue:
+[Report on GitHub](https://github.com/forgenst/zadok/issues)
