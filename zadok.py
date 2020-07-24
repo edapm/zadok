@@ -6,7 +6,10 @@ while todo != "exit":
     if todo != "exit":
         file = open("todo.md", "a+")
         file.write("\n- [ ] "+todo)
-        display = input("Do you want to display your list? (y/n)")
+        display = input("Do you want to display your list? (y/n) ")
         if display == "y":
             list = file.readlines()
+            file.close()
             print(list)
+        else:
+            file.close()
