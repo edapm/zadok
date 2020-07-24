@@ -8,5 +8,5 @@ while todo != "exit":
         file.write("\n- [ ] "+todo)
         display = input("Do you want to display your list? (y/n)")
         if display == "y":
-            list = file.readlines("todo.md")
+            list = file.readlines()
             print(list)
