@@ -13,4 +13,4 @@ A to-do list program for the command line, written in Python.
 [View On GitHub](https://github.com/forgenst/zadok/wiki)
 
 #### Report an Issue:
-[Report on GitHub](https://github.com/forgenst/zadok/issues)
+[Report on GitHub](https://github.com/forgenst/zadok/issues/choose)
