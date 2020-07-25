@@ -1,7 +1,7 @@
 <h1><img src="zadok.svg" width="30">&nbsp;Zadok</h1>
 A to-do list program for the command line, written in Python.
 
-[Download](https://github.com/forgenst/zadok/releases/download/v0.1-alpha/zadok-setup.exe)
+[Download](https://github.com/forgenst/zadok/releases/)
 
 ## Info below ↓
 [Project on GitHub](https://github.com/forgenst/zadok)
