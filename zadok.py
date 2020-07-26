@@ -7,7 +7,8 @@ while True:
         location = input("Enter file location (First time using? See docs for more info): ")
     elif todo == "2":
         file = open(location + "todo.md", "a+")
-        file.write("\n - [ ] " + todo)
+        text = input("Enter item: ")
+        file.write("\n - [ ] " + text)
         file.close()
     elif todo == "3":
         file = open(location + "todo.md", "r")
@@ -15,4 +16,5 @@ while True:
         file.close()
         print(list)
     if todo == "4":
+        print("Bye!")
         break
