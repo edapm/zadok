@@ -1,13 +1,18 @@
 while True:
-    todo = input('Enter item (exit to exit): ')
-    if todo == "exit":
-        break
-    file = open("todo.md", "a+")
-    file.write("\n - [ ] "+todo)
-    file.close()
-    display = input("Do you want to display your list? (y/n) ")
-    if display == "y":
-        file = open("todo.md", "r")
+    location = ""
+    choices = ["1 to change storage location", "2 to add item", "3 to view list", "4 to exit"]
+    print(choices)
+    todo = input("Enter choice (1-4): ")
+    if todo == "1":
+        location = input("Enter file location (First time using? See docs for more info): ")
+    elif todo == "2":
+        file = open(location + "todo.md", "a+")
+        file.write("\n - [ ] " + todo)
+        file.close()
+    elif todo == "3":
+        file = open(location + "todo.md", "r")
         list = file.readlines()
         file.close()
         print(list)
+    if todo == "4":
+        break
