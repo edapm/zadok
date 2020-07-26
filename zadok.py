@@ -22,7 +22,16 @@ while True:
         print(list)
     # option 3 -> finish a todo
     elif todo == "3":
-        file = open(fileOpen, "a+")
+        with open(fileOpen, 'r') as file:
+            data = file.readlines()
+        print(data)
+        file.close()
+        todoNum = input("Which todo do you want to finish (i.e. 1, 2 etc.): ")
+        todoNum = int(todoNum)
+        data[todoNum] = data[todoNum].replace("- [ ]", "- [x]")
+        file = open(fileOpen, 'w+')
+        file.writelines(data)
+        file.close()
     # option 4 -> exit program
     elif todo == "4":
         print("Bye!")
