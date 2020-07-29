@@ -4,7 +4,7 @@ from pathlib import Path
 path = open("PATH")
 pathIs = path.readlines()
 path.close()
-path = str(pathIs)
+path = str(pathIs[0])
 fileOpen = Path(path)
 # mainloop
 while True:
