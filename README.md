@@ -6,6 +6,9 @@ Think you can improve it? Feel free to fork and pull request!
 [Download](https://github.com/forgenst/zadok/releases/)
 
 ## Info below ↓
+
+[![Join the chat at https://gitter.im/zadok-app/community](https://badges.gitter.im/zadok-app/community.svg)](https://gitter.im/zadok-app/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [Repo on GitHub](https://github.com/forgenst/zadok)
 
 #### Roadmap
