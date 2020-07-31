@@ -1,7 +1,11 @@
 # import modules
 from pathlib import Path
 # ask user where to store todo file
-fileOpen = Path(input("Enter file path (see docs for more info): "))
+path = open("PATH")
+pathIs = path.readlines()
+path.close()
+path = str(pathIs[0].strip())
+fileOpen = Path(path)
 # mainloop
 while True:
     # options of what to do
