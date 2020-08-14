@@ -7,6 +7,8 @@ A to-do list program for the command line, written in Python.
 
 Think you can improve it? Feel free to fork and pull request!
 
+For instructions on how to build the binaries, go to the [wiki](https://github.com/zadok/wiki/Install)
+
 [Download](https://github.com/forgenst/zadok/releases/)
 
 ## Info below ↓
