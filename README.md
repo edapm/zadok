@@ -20,4 +20,4 @@ Think you can improve it? Feel free to fork and pull request!
 [View On GitHub](https://github.com/forgenst/zadok/wiki)
 
 #### Report an Issue:
-[Report on GitHub](https://github.com/forgenst/zadok/issues/choose)
+[Report on GitHub](https://github.com/forgenst/zadok/issues/new/choose)
