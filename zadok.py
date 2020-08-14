@@ -11,7 +11,7 @@ while True:
     # options of what to do
     choices = "1 to add item, 2 to view list, 3 to finish a todo, 4 to delete a todo, 5 to exit"
     print(choices)
-    todo = input("Enter choice (1-4): ")
+    todo = input("Enter choice (1-5): ")
     # option 1 -> add item
     if todo == "1":
         file = open(fileOpen, "a+")
@@ -44,7 +44,7 @@ while True:
         file.close()
         todoNum = input("Which todo do you want to finish (i.e. 1, 2 etc.): ")
         todoNum = int(todoNum)
-        data[todoNum] = data[todoNum].replace()
+        data[todoNum] = ""
         file = open(fileOpen, 'w+')
         file.writelines(data)
         file.close()
